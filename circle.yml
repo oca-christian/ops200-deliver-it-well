@@ -35,8 +35,8 @@ jobs:
         
       # run tests!
       - run: yarn test
-  deployment:
-    staging:
-      branch: master
-      heroku:
-        appname: testing-integration-oca
+    deployment:
+      staging:
+        branch: master
+        heroku:
+          appname: testing-integration-oca
